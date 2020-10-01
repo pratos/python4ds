@@ -11,4 +11,36 @@
 - In the terminal run command: `conda env create -f greyatom.yml`
 - Once done, run: `source activate greyatom`. Your virtual environment is setup successfully!
 
+##Add packages to Anaconda environment
+Using pip command :
+
+Open Anaconda Command prompt as administrator
+Use cd\ to come out of set directory or path.
+Run pip install command.
+
+Using git :
+
+Download git files
+Clone or download git hub files in some directory.
+Open Anaconda Command prompt as administrator.
+Use cd C:\Users\... to locate downloaded site.
+Then run pip install setup.py.
+
+Using wheel :
+
+Download wheel package.
+Download binary files or .whl file from authentic website.
+Open Anaconda Command prompt as administrator.
+Use cd C:\Users\... to locate downloaded site.
+Then run pip install ___.whl
+
+
+Using Conda forge Command :
+This type of installation will guarantee that package will be downloaded to the system. Because this type of installation resolves environments, package-package conflicts, etc.
+
+Self Upgrade related packages to the downloading package.
+Open Anaconda Command prompt as administrator.
+Then run conda install -c conda-forge ___
+
+
 **NOTE: If you aren't successful with using git then you can view the snippets directly by finding /notebooks folder and clicking on the notebook that you want. Github renders those notebooks automatically in a readable format. Copy and paste the code in your own notebook or python shell**
